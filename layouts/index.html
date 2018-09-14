@@ -27,7 +27,7 @@
 			{{ .Content }}
 
 			<ul>
-			{{ range .Site.Pages }}
+			{{ range sort .Site.Pages "Title" "asc" }}
 				<li><a href="/{{ .Slug }}">{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</a></li>
 			{{ end }}
 			</ul>
