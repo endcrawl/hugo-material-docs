@@ -1,6 +1,6 @@
 {{ $currentNode := . }}
 
-{{ range .Site.Menus.main.ByWeight }}
+{{ range sort .Site.Menus.main "Weight" "desc" }}
 
 {{ $.Scratch.Set "currentMenuEntry" . }}
 <li>
