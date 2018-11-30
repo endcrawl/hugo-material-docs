@@ -913,7 +913,7 @@ h1 .article .headerlink {
   min-height: 45vh;
 }
 .copyright {
-  margin: 1.5em 0;
+  margin: 3.0em 0 1.5em 0;
 }
 .pagination {
   max-width: 1184px;
@@ -1230,9 +1230,6 @@ h1 .article .headerlink {
   }
   .footer {
     z-index: 4;
-  }
-  .copyright {
-    margin-bottom: 64px;
   }
   .results {
     height: auto;
