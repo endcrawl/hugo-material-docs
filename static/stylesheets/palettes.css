@@ -682,6 +682,42 @@
 .palette-primary-blue-grey .results .meta {
   background: #546e7a;
 }
+@supports (-webkit-appearance: none) {
+  .palette-primary-endcrawl {
+    background: #546e7a;
+  }
+}
+.palette-primary-endcrawl .footer,
+.palette-primary-endcrawl .header {
+  background: #546e7a;
+}
+.palette-primary-endcrawl .drawer .toc a.current,
+.palette-primary-endcrawl .drawer .toc a:focus,
+.palette-primary-endcrawl .drawer .toc a:hover {
+  color: #546e7a;
+}
+.palette-primary-endcrawl .drawer .anchor a {
+  border-left: 2px solid #546e7a;
+}
+.ios.standalone .palette-primary-endcrawl .article {
+  background: -webkit-linear-gradient(top, #fff 50%, #546e7a 0);
+  background: linear-gradient(180deg, #fff 50%, #546e7a 0);
+}
+.palette-primary-endcrawl .article a,
+.palette-primary-endcrawl .article code,
+.palette-primary-endcrawl .article h1,
+.palette-primary-endcrawl .article h2 {
+  color: #000;
+}
+.palette-primary-endcrawl .article .headerlink {
+  color: rgba(0, 0, 0, 0.26);
+}
+.palette-primary-endcrawl .article table th {
+  background: #7f929b;
+}
+.palette-primary-endcrawl .results .meta {
+  background: #546e7a;
+}
 .palette-accent-red .article a:focus,
 .palette-accent-red .article a:hover {
   color: #ff2d6f;
@@ -850,6 +886,9 @@
     background: #757575;
   }
   .palette-primary-blue-grey .project {
+    background: #546e7a;
+  }
+  .palette-primary-endcrawl .project {
     background: #546e7a;
   }
 }
