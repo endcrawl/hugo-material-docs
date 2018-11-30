@@ -841,6 +841,9 @@ h1 .article .headerlink {
   margin-left: -1.2em;
   vertical-align: -0.1em;
 }
+.article #TableOfContents > ul > li:before {
+  display: none;
+}
 .article p > code {
   white-space: nowrap;
   padding: 2px 4px;
