@@ -909,6 +909,9 @@ h1 .article .headerlink {
   right: 0;
   padding: 0 4px;
 }
+.article .content {
+  min-height: 45vh;
+}
 .copyright {
   margin: 1.5em 0;
 }

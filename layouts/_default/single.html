@@ -26,11 +26,13 @@
 		<div class="wrapper">
 			<h1>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h1>
 
-			{{ if eq .Params.toc "true" }}
-				{{ .TableOfContents }}
-			{{ end }}
+			<div class="content">
+				{{ if eq .Params.toc "true" }}
+					{{ .TableOfContents }}
+				{{ end }}
 
-			{{ .Content }}
+				{{ .Content }}
+			</div>
 
 			<aside class="copyright" role="note">
 				{{ with .Site.Params.copyright }}
