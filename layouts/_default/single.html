@@ -26,6 +26,13 @@
 		<div class="wrapper">
 			<h1>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h1>
 
+			<ul class="metadata">
+				<li>{{ .ReadingTime }} min reading time, {{ .WordCount }} words</li>
+				<li>Last edited by {{ .GitInfo.AuthorName }} at {{ .GitInfo.AuthorDate }}</li>
+				<li><a href="{{ .Site.Params.repo_url }}/tree/master/content/{{ .File.Path }}">View Markdown on Github</a></li>
+				<li><a href="https://app.forestry.io/sites/3jqdxejmdaqong/#/pages/content-{{ .Params.slug }}-md/">Edit on Forestry.io</a></li>
+			</ul>
+
 			<div class="content">
 				{{ if eq .Params.toc "true" }}
 					{{ .TableOfContents }}
