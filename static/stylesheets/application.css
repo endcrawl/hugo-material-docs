@@ -761,7 +761,7 @@ pre span {
   clear: both;
 }
 .article .wrapper {
-  padding: 116px 16px 92px;
+  padding: 92px 16px 92px;
 }
 .ios.standalone .article {
   position: absolute;
@@ -1323,7 +1323,7 @@ h1 .article .headerlink {
     margin: 26px 0 0 5px;
   }
   .article .wrapper {
-    padding: 128px 24px 96px;
+    padding: 96px 24px 96px;
   }
   .article .data {
     margin: 1.5em -24px;
