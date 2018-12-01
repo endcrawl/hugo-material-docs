@@ -1421,6 +1421,12 @@ h1 .article .headerlink {
   .ios.standalone .results .scrollable {
     top: 76px;
   }
+  .article .pagelink a {
+    width: 100%;
+  }
+  .article .pagelink .info {
+    display: none;
+  }
 }
 @media only screen and (orientation: portrait) and (min-width: 720px) {
   .ios.standalone .header {
