@@ -28,7 +28,7 @@
 
 			<ul>
 			{{ range sort .Site.RegularPages "Title" "asc" }}
-				<li><a href="/{{ .Slug }}">{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</a></li>
+                        <li class="pagelink"><a href="/{{ .Slug }}">{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</a> <em class="info"> &#8987; {{ .ReadingTime }} min, {{ .WordCount }} words</em></li>
 			{{ end }}
 			</ul>
 

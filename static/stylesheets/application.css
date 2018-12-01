@@ -902,6 +902,26 @@ h1 .article .headerlink {
   margin: 0 16px;
   text-align: left;
 }
+.article .pagelink {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 0;
+}
+.article .pagelink a {
+  width: 70%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.article .pagelink .info {
+  width: 30%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  font-style: normal;
+  font-size: 80%;
+  margin-left: 1em;
+  opacity: 0.6;
+}
 .footer {
   position: absolute;
   bottom: 0;
